@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+.navbar
+{
+    
+    display:flex;
+    justify-content: space-between;
+    margin:0px;
+    background-color: black;
+    color:white;
+    padding:5px 15px;
+}
+.navbar ul
+{
+    list-style-type: none;
+    display:flex;
+}
+.list{
+font-weight: bolder;
+padding:5px 10px;
+word-spacing: 5px;
+}
+.hero
+{
+    background-image: url(./food_vegetables_tomatoes_salad_Pepper_Garlic_Paprika-1949021.jpg!d);
+    height: 80vh;
+    object-fit:fill;
+    margin:0px;
+    text-align: center;
+    padding-top: 300px;
+    line-height: 25px;
+}
+h3{
+    font-size: 45px;
+    color:white;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.btn
+{
+    padding:10px 15px;
+    background-color: orange;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    border:1px solid white;
+}
+.btn:hover
+{
+    background-color: black;
+    color:orange;
+    border-color: orange;
+    cursor: pointer;
+}
+@media (max-width:576px)
+{
+    .d-link
+    {
+        display:none;
+    }
+}
+@media (max-width:576px)
+{
+    .about-head{
+        font-size:20px
+    }
+    .about-para
+    {
+        font-size: 2px;
+    }
+}
+.title
+{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+p{
+    font-size: 25px;
+    color:black;
+    text-align: center;
+}
+.about-us
+{
+    display:flex;
+    justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.about-us-card
+{
+    width:300px;
+    border:1px solid rgb(185, 174, 174);
+    padding:10px 10px;
+    border-radius: 15px;
+
+}
+.about-logo
+{
+    font-size:50px;
+    margin:20px 0px;
+    color:orange;
+
+}
+.about-us-head
+{
+    margin:10px 0px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.about-us-para
+{
+    font-size:18px;
+    text-align: left;
+    margin:10px 0px;
+}
+.gallery-head
+{
+    text-align: center;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.gallery-card-parent
+{
+    width:300px;
+    border-radius: 15px;
+    border:1px solid rgb(238, 226, 226);
+    margin-top: 25px;
+}
+.gallery-card
+{
+    width:300px;
+    height:300px;
+    
+ 
+}
+.img1
+{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius: 15px;
+
+}
+.gallery1
+{
+    display:flex;
+    justify-content: space-evenly;
+    margin:25px 5px;
+    flex-wrap: wrap;
+}
+.gallery2
+{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.suscribtion-head
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.suscribtion-card
+{
+    width:300px;
+    border-radius: 15px;
+    padding:15px;
+    box-shadow: 0px 0px 15px grey;
+    -webkit-box-shadow:0px 0px 15px grey;
+    cursor:grab;
+    margin-top: 20px;
+}
+.card-head{
+    text-align: center;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 2px;
+
+}
+.card-price
+{
+    text-align: center;
+    color: rgba(228, 128, 14, 0.773);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 35px;
+
+
+   
+    
+}
+.suscribe-btn
+{
+    width:100%;
+    padding:10px;
+    border-radius: 15px;
+    background-color: rgba(228, 128, 14, 0.773);
+    color:white;
+    cursor:pointer;
+
+
+}
+.suscribe-btn:hover
+{
+    background-image: linear-gradient(to left,rgb(30, 223, 191),rgb(42, 158, 208));
+}
+.suscribtion-parent
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.copyright
+{
+    width:100%;
+    background-color: black;
+    margin-top: 80px;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    padding:20px 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+.icon{
+    padding:5px 5px;
+    font-size:larger;
+}
